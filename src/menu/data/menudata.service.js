@@ -18,7 +18,6 @@
       return result;
     }
 
-
     service.getItemsForCategory = function (categoryShortName) {
       return $http({
         method: 'GET',
